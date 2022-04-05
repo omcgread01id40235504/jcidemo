@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-04-05T13:03:06.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.4.0" etag="pxQINqLKY2uQIo6P_8Sy" type="github"><diagram id="FDrz4ZWxZTAXGHRISpgK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-05T13:21:25.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="z6z9fPmzx1Il0rPIxFrG" version="17.4.0" type="github">
+  <diagram id="FDrz4ZWxZTAXGHRISpgK" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-1" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="130" as="sourcePoint" />
+            <mxPoint x="360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-5" value="Project" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-6" value="Lecturer Name&lt;br&gt;Lecturer Email&lt;br&gt;Project Title&lt;br&gt;Project Number&lt;br&gt;Description&lt;br&gt;Keywords" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1JlZSAPzXAOQfb5B9xWh-5">
+          <mxGeometry y="40" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-12" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="56" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-13" value="App" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.482;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.507;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1JlZSAPzXAOQfb5B9xWh-6" target="1JlZSAPzXAOQfb5B9xWh-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-15" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="410" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-17" value="Swipe&lt;br&gt;Projects" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="420" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441.5" y="364" as="sourcePoint" />
+            <mxPoint x="442" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-19" value="Finalise Selections" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442" y="460" as="sourcePoint" />
+            <mxPoint x="441.99" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-21" value="&lt;br&gt;Selections&lt;br&gt;DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="412" y="610" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1JlZSAPzXAOQfb5B9xWh-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="560" as="sourcePoint" />
+            <mxPoint x="442" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-26" value="Coordinator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="650" as="sourcePoint" />
+            <mxPoint x="300" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-33" value="Sorting&lt;br&gt;Algorithm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274.5" y="600" as="sourcePoint" />
+            <mxPoint x="274.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274.5" y="459" as="sourcePoint" />
+            <mxPoint x="274.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1JlZSAPzXAOQfb5B9xWh-36" value="Allocated&lt;br&gt;Project" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1JlZSAPzXAOQfb5B9xWh-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
